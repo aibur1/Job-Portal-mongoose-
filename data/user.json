@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Aibur Rahman",
+        "email": "aiburrahman17@gmail.com",
+        "password": "Aibur#1",
+        "confirmPassword": "Aibur#1",
+        "role": "hiring Manager",
+        "contactNumber": "0088011112222"
+      },
+      {
+        "name": "Jonathon Troat",
+        "email": "jonathon@gmail.com",
+        "password": "Jonathon#1",
+        "confirmPassword": "Jonathon#1",
+        "role": "hiring Manager",
+        "contactNumber": "0088045908"
+      },
+      {
+        "name": "Stuart Mcnoy",
+        "email": "stuart@gmail.com",
+        "password": "Stuart#1",
+        "confirmPassword": "Stuart#1",
+        "contactNumber": "090998776890"
+      },
+      {
+        "name": "Helson Nembar",
+        "email": "helson@gmail.com",
+        "password": "Helson#1",
+        "confirmPassword": "Helson#1",
+        "contactNumber": "0044876345"
+      }
+]
