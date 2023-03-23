@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken")
 const { promisify } = require("util");
-const { findSpecificJobs } = require("../services/manager.service");
+const { findSpecificManagerJobs } = require("../services/manager.service");
 
 exports.getJobs = async (req, res) => {
     try {
@@ -9,7 +9,7 @@ exports.getJobs = async (req, res) => {
         const decoded = await promisify(jwt.verify)(token, process.env.TOKEN_SECRET)
         req.user = decoded;
 
-        const managerJobs = await findSpecificJobs(req.user);
+        const managerJobs = await findSpecificManagerJobs(req.user);
 
         res.status(200).json({
             status: "Success",
